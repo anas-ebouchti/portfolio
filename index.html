@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - EL BOUCHTI Anas</title>
+    <title>EL-BOUCHTI ANAS - Portfolio</title>
 
     <style>
         body {
@@ -14,13 +14,19 @@
             color: #333;
         }
         header {
-            background: #111;
+            background: #0c1b40;
             color: white;
             padding: 40px 20px;
             text-align: center;
         }
         h1 {
             margin: 0;
+            font-size: 35px;
+            letter-spacing: 1px;
+        }
+        h2 {
+            color: #0c1b40;
+            margin-bottom: 10px;
         }
         section {
             max-width: 900px;
@@ -30,25 +36,18 @@
             border-radius: 10px;
             box-shadow: 0 0 10px #ccc;
         }
-        h2 {
-            color: #111;
-            margin-bottom: 10px;
-        }
         .project {
-            border-left: 4px solid #111;
+            border-left: 4px solid #0c1b40;
             padding-left: 15px;
             margin-bottom: 20px;
         }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #111;
-            color: white;
-            margin-top: 40px;
-        }
         a {
-            color: #111;
+            color: #0c1b40;
             font-weight: bold;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -56,69 +55,20 @@
 <body>
 
 <header>
-    <h1>EL BOUCHTI Anas</h1>
-    <p>Cybersecurity & Network Engineering Student — EMG Rabat</p>
+    <h1>EL-BOUCHTI ANAS</h1>
+    <p style="font-size:18px; margin-top:5px;">TECHNICIEN EN RÉSEAUX INFORMATIQUE</p>
 </header>
 
 <section>
-    <h2>À propos</h2>
-    <p>
-        Étudiant passionné par la cybersécurité, les réseaux et le développement.
-        J’ai réalisé plusieurs projets pratiques dans le pentest, l'administration Linux,
-        les réseaux Cisco/GNS3, et le développement Web & Mobile (Laravel, Flutter).
-    </p>
-</section>
-
-<section>
-    <h2>Compétences</h2>
-    <ul>
-        <li>🔐 Cybersécurité : Nmap, Metasploit, Bettercap, Wireshark</li>
-        <li>🌐 Réseaux : VLAN, DHCP, DNS, ACL, NAT/PAT, Cisco IOS, GNS3/EVE-NG</li>
-        <li>🐧 Linux : Administration, Bash, Serveurs</li>
-        <li>💻 Développement : Laravel, Flutter, Python, SQL</li>
-        <li>🛠 Virtualisation : VMware, VirtualBox, KVM</li>
-    </ul>
-</section>
-
-<section>
-    <h2>Projets</h2>
+    <h2>Mes Projets Réalisés</h2>
 
     <div class="project">
-        <h3>Pentest complet : Kali Linux → Metasploitable</h3>
-        <p>Scan Nmap, enumeration, exploitation Metasploit, génération de rapport.</p>
-        <p><strong>Tech :</strong> Kali, Metasploit, Nmap, Linux</p>
-    </div>
-
-    <div class="project">
-        <h3>Infrastructure Réseau (VLAN – ACL – DHCP – NAT)</h3>
-        <p>Réseau complet sur GNS3/EVE-NG avec routage, firewall, DMZ et VLANs.</p>
-        <p><strong>Tech :</strong> Cisco IOS, EVE-NG, pfSense</p>
-    </div>
-
-    <div class="project">
-        <h3>Application Web : Location de Voitures (Laravel)</h3>
-        <p>CRUD Client, Voiture, Location + Authentification + Migrations.</p>
-        <p><strong>Tech :</strong> Laravel, PHP, MySQL</p>
-    </div>
-
-    <div class="project">
-        <h3>Application Mobile Flutter</h3>
-        <p>App mobile simple avec pages, formulaires, UI propre.</p>
-        <p><strong>Tech :</strong> Flutter, Dart</p>
+        <h3>Pare-feu FortiGate – Filtration Réseau</h3>
+        <p>Configuration de filtrage réseau, règles firewall, NAT/DNAT et zones de sécurité.</p>
+        <a href="fortigate.html">Voir le projet</a>
     </div>
 
 </section>
-
-<section>
-    <h2>Contact</h2>
-    <p>Email : <a href="mailto:anas.ebouchti.pro@gmail.com">anas.ebouchti.pro@gmail.com</a></p>
-    <p>LinkedIn : <a href="https://www.linkedin.com/in/">linkedin.com/in/anas</a></p>
-    <p>GitHub : <a href="https://github.com/">github.com/anas</a></p>
-</section>
-
-<footer>
-    <p>© 2025 - Portfolio de EL BOUCHTI Anas</p>
-</footer>
 
 </body>
 </html>
